@@ -13,7 +13,7 @@ To set up a Pipe Network Node, you need to allocate sufficient disk space and RA
 
 Pipe Network official Docs: [Pipe PoP Docs](https://docs.pipe.network/devnet-2)
 
-## Install Dependecies:
+## Install Dependencies:
 
 ```
 sudo apt update && sudo apt upgrade -y
