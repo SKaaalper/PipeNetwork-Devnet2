@@ -11,10 +11,12 @@ To set up a Pipe Network Node, you need to allocate sufficient disk space and RA
 - Disk Space: At least `100GB` free (configurable). A sweet spot is between `200-500GB`.
 - Internet Connectivity: Available 24/7.
 
+Pipe Network official Docs: [Pipe PoP Docs](https://docs.pipe.network/devnet-2)
 
-## Installation Instructions:
 
-1. Start by creating the necessary directories for the Pipe Network node:
+## Installation:
+
+1. Create the necessary directories for the Pipe Network node:
 ```
 mkdir -p /root/pipenetwork
 mkdir -p /root/pipenetwork/download_cache
