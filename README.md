@@ -54,7 +54,7 @@ chmod +x pop
 nano /etc/systemd/system/pipe-pop.service
 ```
 
-### ***In the service file, adjust the following values:***
+In the service file, adjust the following values:
 
 - RAM Size: Minimum 4GB, higher values are better.
 - Max Disk: Minimum 100GB, 200-500GB recommended.
