@@ -13,6 +13,12 @@ To set up a Pipe Network Node, you need to allocate sufficient disk space and RA
 
 Pipe Network official Docs: [Pipe PoP Docs](https://docs.pipe.network/devnet-2)
 
+## Install Dependecies:
+
+```
+sudo apt update && sudo apt upgrade -y
+sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang aria2 bsdmainutils ncdu unzip libleveldb-dev -y
+```
 
 ## Installation:
 
