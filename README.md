@@ -112,6 +112,10 @@ sudo systemctl status pipe-pop
 ```
 ![banner](https://github.com/SKaaalper/PipeNetwork-Devnet2/blob/main/image2.png)
 
+9. Check the logs:
+```
+journalctl -u pipe-pop -f
+```
 
 
 ## Updating the Node for Existing Users:
