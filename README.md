@@ -27,7 +27,7 @@ ufw allow 8003/tcp
 ```
 
 3. Download and Install the Pipe Node, Depending on whether you have a whitelist spot, the installation command differs.
-- With whitelist: To obtain the URL Click `Download PoP Node` > Click `mouse 2` > Click `Copy link address`
+- With whitelist: To obtain the URL `Right-click the 'Download PoP Node' in your email` and Click `Copy link address`
 ```
 curl -L -o pop "<URL_FROM_EMAIL>"
 ```
