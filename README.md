@@ -163,7 +163,7 @@ sudo systemctl stop pipe-pop && cd $HOME/pipenetwork && rm -f pop && wget -O pop
 
 
 
-### Updatng the node for existing user`v0.2.5`:
+### Update your node into `v0.2.5 (For existing user):
 ```
 sudo systemctl stop pipe-pop && cd $HOME/pipenetwork && rm -f pop && wget -O pop "https://dl.pipecdn.app/v0.2.5/pop" && chmod +x pop && sudo systemctl daemon-reload && sudo systemctl restart pipe-pop && journalctl -u pipe-pop -f
 ```
