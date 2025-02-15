@@ -42,7 +42,7 @@ curl -L -o pop "<URL_FROM_EMAIL>"
 
 - Without whitelist:
 ```
-wget -O pop "https://dl.pipecdn.app/v0.2.4/pop"
+wget -O pop "https://dl.pipecdn.app/v0.2.5/pop"
 ```
 
 4. Make the Node Executable:
