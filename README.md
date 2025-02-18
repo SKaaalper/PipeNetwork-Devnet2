@@ -168,6 +168,12 @@ sudo systemctl stop pipe-pop && cd $HOME/pipenetwork && rm -f pop && wget -O pop
 sudo systemctl stop pipe-pop && cd $HOME/pipenetwork && rm -f pop && wget -O pop "https://dl.pipecdn.app/v0.2.5/pop" && chmod +x pop && sudo systemctl daemon-reload && sudo systemctl restart pipe-pop && journalctl -u pipe-pop -f
 ```
 
+### Update your node to `v0.2.6` (For existing user):
+```
+sudo systemctl stop pipe-pop && cd $HOME/pipenetwork && rm -f pop && wget -O pop "https://dl.pipecdn.app/v0.2.6/pop" && chmod +x pop && sudo systemctl daemon-reload && sudo systemctl restart pipe-pop && journalctl -u pipe-pop -f
+```
+
+
 Check your node status: [https://dashboard.pipenetwork.com/](https://dashboard.pipenetwork.com)
 
 
