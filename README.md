@@ -186,6 +186,10 @@ sudo ufw status
 ```
 sudo systemctl stop pipe-pop && cd $HOME/pipenetwork && rm -f pop && wget -O pop "https://dl.pipecdn.app/v0.2.8/pop" && chmod +x pop && sudo systemctl daemon-reload && sudo systemctl restart pipe-pop && journalctl -u pipe-pop -f
 ```
+- Check Pipe Version:
+```
+./pipe --version
+```
 
 
 Check your node status: [https://dashboard.pipenetwork.com/](https://dashboard.pipenetwork.com)
