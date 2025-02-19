@@ -42,7 +42,7 @@ curl -L -o pop "<URL_FROM_EMAIL>"
 
 - Without whitelist:
 ```
-wget -O pop "https://dl.pipecdn.app/v0.2.6/pop"
+wget -O pop "https://dl.pipecdn.app/v0.2.8/pop"
 ```
 
 4. Make the Node Executable:
@@ -171,6 +171,20 @@ sudo systemctl stop pipe-pop && cd $HOME/pipenetwork && rm -f pop && wget -O pop
 ### Update your node to `v0.2.6` (For existing user):
 ```
 sudo systemctl stop pipe-pop && cd $HOME/pipenetwork && rm -f pop && wget -O pop "https://dl.pipecdn.app/v0.2.6/pop" && chmod +x pop && sudo systemctl daemon-reload && sudo systemctl restart pipe-pop && journalctl -u pipe-pop -f
+```
+
+### Update your node to `v0.2.8` (For existing user):
+- Open port:
+```
+sudo ufw allow 8003/tcp
+sudo ufw allow 443/tcp
+sudo ufw allow 80/tcp
+sudo ufw reload
+sudo ufw status
+```
+
+```
+sudo systemctl stop pipe-pop && cd $HOME/pipenetwork && rm -f pop && wget -O pop "https://dl.pipecdn.app/v0.2.8/pop" && chmod +x pop && sudo systemctl daemon-reload && sudo systemctl restart pipe-pop && journalctl -u pipe-pop -f
 ```
 
 
