@@ -176,7 +176,6 @@ sudo systemctl stop pipe-pop && cd $HOME/pipenetwork && rm -f pop && wget -O pop
 ### Update your node to `v0.2.8` (For existing user):
 - Open port:
 ```
-sudo ufw allow 8003/tcp
 sudo ufw allow 443/tcp
 sudo ufw allow 80/tcp
 sudo ufw reload
