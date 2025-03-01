@@ -32,6 +32,10 @@ cd /root/pipenetwork
 2. Allow Port `8003`:
 ```
 ufw allow 8003/tcp
+sudo ufw allow 443/tcp
+sudo ufw allow 80/tcp
+sudo ufw reload
+sudo ufw status
 ```
 
 3. Download and Install the Pipe Node, Depending on whether you have a whitelist spot, the installation command differs.
