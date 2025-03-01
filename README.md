@@ -31,7 +31,7 @@ cd /root/pipenetwork
 
 2. Allow Port `8003`:
 ```
-ufw allow 8003/tcp
+sudo ufw allow 8003/tcp
 sudo ufw allow 443/tcp
 sudo ufw allow 80/tcp
 sudo ufw reload
