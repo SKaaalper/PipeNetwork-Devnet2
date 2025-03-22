@@ -1,6 +1,7 @@
 # **Pipe Network Devnet2 Node Setup Guide**
 
-![banner](https://github.com/SKaaalper/PipeNetwork-Devnet2/blob/main/image3.png)
+![image](https://github.com/user-attachments/assets/d65e2073-0bfe-4bb8-ab8b-04094a87721d)
+
 
 To set up a Pipe Network Node, you need to allocate sufficient disk space and RAM to cache data for egress. The more disk space you allocate, the more data your node can store, which can improve egress performance over time. Follow the steps below to configure your system for optimal performance.
 
