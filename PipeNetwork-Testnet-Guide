@@ -1,0 +1,16 @@
+##  Pipe Network Testnet Node Installation Guide (Ubuntu 24.04).
+
+| Resource    | Requirement |
+| ----------- | ----------- |
+| CPU         | 4 Cores     |
+| RAM         | 16 GB       |
+| Storage     | 100 GB SSD  |
+| Internet    | 1 Gbps      |
+| Last Update | 11-05-2025  |
+
+
+### 1. Stop Devnet Node (if previously installed):
+```
+sudo systemctl stop pop.service
+sudo systemctl disable pop.service
+```
